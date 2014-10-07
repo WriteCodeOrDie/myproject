@@ -16,6 +16,8 @@ public class MainActivity extends ActionBarActivity {
 	 * mmmmmmmmmmmmmmmmmmmmmmm
 	 * @see android.support.v7.app.ActionBarActivity#onCreate(android.os.Bundle)
 	 */
+	
+	private int idB;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
