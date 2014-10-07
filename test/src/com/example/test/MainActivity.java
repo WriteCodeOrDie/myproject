@@ -13,6 +13,7 @@ public class MainActivity extends ActionBarActivity {
 	 * one more comment by MG
 	 * more and more
 	 * more
+	 * mmmmmmmmmmmmmmmmmmmmmmm
 	 * @see android.support.v7.app.ActionBarActivity#onCreate(android.os.Bundle)
 	 */
 
