@@ -7,6 +7,7 @@ import android.view.MenuItem;
 
 public class MainActivity extends ActionBarActivity {
 
+	private String testcomment;
 	/*
 	 * (non-Javadoc)
 	 * @see android.support.v7.app.ActionBarActivity#onCreate(android.os.Bundle)
