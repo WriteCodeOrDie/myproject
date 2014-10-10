@@ -1,22 +1,21 @@
-package com.example.neuesprojekt;
+package de.training.training;
 
-
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.Toast;
 
 public class MainActivity extends ActionBarActivity {
 
-
-	/*
-	 * (non-Javadoc)
-	 * @see android.support.v7.app.ActionBarActivity#onCreate(android.os.Bundle)
-	 */
+	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_main);
+		setContentView(R.layout.activity_main);		
+
 	}
 
 	@Override
@@ -37,4 +36,18 @@ public class MainActivity extends ActionBarActivity {
 		}
 		return super.onOptionsItemSelected(item);
 	}
+	
+	public void onButtonClick(View view) {
+		
+		switch(view.getId()) {
+		case R.id.btnDateizugriff:
+			startActivity(new Intent(this, Dateisystem.class));
+//			Toast.makeText(this, "test", Toast.LENGTH_SHORT).show();
+			 break;
+		case R.id.btnReadContact:
+			startActivity(new Intent(this, ContentProvider.class));
+			break;
+		}
+	}
+
 }
