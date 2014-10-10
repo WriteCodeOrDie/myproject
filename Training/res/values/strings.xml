@@ -11,5 +11,7 @@
     <string name="Content_head">Kontakte</string>
     <string name="List_name">Liste</string>
     <string name="btnContact_Name">Kontakte lesen</string>
+    <string name="SimName">Simkarte Kontakte</string>
+    <string name="btnSim_name">Sim Kontakte auslesen</string>
 
 </resources>

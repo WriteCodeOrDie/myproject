@@ -2,6 +2,7 @@ package de.training.training;
 
 import android.app.ListActivity;
 import android.database.Cursor;
+import android.net.Uri;
 import android.os.Bundle;
 import android.provider.BaseColumns;
 import android.provider.ContactsContract.Contacts;
@@ -11,12 +12,13 @@ import android.widget.SimpleCursorAdapter;
 
 
 public class ContentProvider extends ListActivity {
-
+	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.content_provider);
 		kontakteladen();
+		
 	}
 	
 	
@@ -34,7 +36,11 @@ public class ContentProvider extends ListActivity {
 		
 		startManagingCursor(kontaktCursor);
 		SimpleCursorAdapter kontaktAdapter = 
-				new SimpleCursorAdapter(this, android.R.layout.simple_list_item_1, kontaktCursor, new String[] {Contacts.DISPLAY_NAME}, new int[] {android.R.id.text1});
+				new SimpleCursorAdapter(this, 
+						android.R.layout.simple_list_item_1, 
+						kontaktCursor, 
+						new String[] {Contacts.DISPLAY_NAME}, 
+						new int[] {android.R.id.text1});
 		
 		setListAdapter(kontaktAdapter);
 		

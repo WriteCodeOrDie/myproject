@@ -29,4 +29,13 @@
         android:onClick="onButtonClick"
         android:text="@string/btnContact_Name" />
 
+    <Button
+        android:id="@+id/btnReadSim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnReadContact"
+        android:layout_alignRight="@+id/btnReadContact"
+        android:layout_below="@+id/btnReadContact"
+        android:text="@string/btnSim_name" />
+
 </RelativeLayout>

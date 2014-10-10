@@ -52,6 +52,8 @@ public class MainActivity extends ActionBarActivity {
 		case R.id.btnReadContact:
 			startActivity(new Intent(this, ContentProvider.class));
 			break;
+		case R.id.btnReadSim:
+			startActivity(new Intent(this, SimProvider.class));
 		}
 	}
 
