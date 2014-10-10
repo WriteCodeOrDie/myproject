@@ -27,6 +27,7 @@ public class ContentProvider extends ListActivity {
 				null, 
 				Contacts.DISPLAY_NAME);
 		
+		
 		startManagingCursor(kontaktCursor);
 		SimpleCursorAdapter kontaktAdapter = 
 				new SimpleCursorAdapter(this, android.R.layout.simple_list_item_1, kontaktCursor, new String[] {Contacts.DISPLAY_NAME}, new int[] {android.R.id.text1});
