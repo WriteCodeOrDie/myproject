@@ -3,8 +3,12 @@ package de.training.training;
 import android.app.ListActivity;
 import android.database.Cursor;
 import android.os.Bundle;
+import android.provider.BaseColumns;
 import android.provider.ContactsContract.Contacts;
 import android.widget.SimpleCursorAdapter;
+
+
+
 
 public class ContentProvider extends ListActivity {
 
@@ -22,7 +26,7 @@ public class ContentProvider extends ListActivity {
 		
 		Cursor kontaktCursor = getContentResolver().query(
 				Contacts.CONTENT_URI, // z.B. content://de.training.training.provider...... 
-				new String[] {Contacts._ID, Contacts.DISPLAY_NAME}, 
+				new String[] {BaseColumns._ID, Contacts.DISPLAY_NAME}, 
 				null, 
 				null, 
 				Contacts.DISPLAY_NAME);
