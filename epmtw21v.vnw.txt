@@ -1,0 +1,85 @@
+﻿
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# Committer: WriteCodeOrDie <Muemin.Goezenoglu@IT2028061.bfarm.de>
+#
+# On branch master
+# Your branch is up-to-date with 'origin/master'.
+#
+# Changes to be committed:
+#	deleted:    Training/.classpath
+#	deleted:    Training/AndroidManifest.xml
+#	deleted:    Training/bin/AndroidManifest.xml
+#	deleted:    Training/bin/R.txt
+#	deleted:    Training/bin/Training.apk
+#	deleted:    Training/bin/classes.dex
+#	deleted:    Training/bin/classes/android/support/v7/appcompat/R$anim.class
+#	deleted:    Training/bin/classes/android/support/v7/appcompat/R$attr.class
+#	deleted:    Training/bin/classes/android/support/v7/appcompat/R$bool.class
+#	deleted:    Training/bin/classes/android/support/v7/appcompat/R$color.class
+#	deleted:    Training/bin/classes/android/support/v7/appcompat/R$dimen.class
+#	deleted:    Training/bin/classes/android/support/v7/appcompat/R$drawable.class
+#	deleted:    Training/bin/classes/android/support/v7/appcompat/R$id.class
+#	deleted:    Training/bin/classes/android/support/v7/appcompat/R$integer.class
+#	deleted:    Training/bin/classes/android/support/v7/appcompat/R$layout.class
+#	deleted:    Training/bin/classes/android/support/v7/appcompat/R$string.class
+#	deleted:    Training/bin/classes/android/support/v7/appcompat/R$style.class
+#	deleted:    Training/bin/classes/android/support/v7/appcompat/R$styleable.class
+#	deleted:    Training/bin/classes/android/support/v7/appcompat/R.class
+#	deleted:    Training/bin/classes/de/training/training/BuildConfig.class
+#	deleted:    Training/bin/classes/de/training/training/ContentProvider.class
+#	deleted:    Training/bin/classes/de/training/training/Dateisystem.class
+#	deleted:    Training/bin/classes/de/training/training/MainActivity.class
+#	deleted:    Training/bin/classes/de/training/training/R$anim.class
+#	deleted:    Training/bin/classes/de/training/training/R$attr.class
+#	deleted:    Training/bin/classes/de/training/training/R$bool.class
+#	deleted:    Training/bin/classes/de/training/training/R$color.class
+#	deleted:    Training/bin/classes/de/training/training/R$dimen.class
+#	deleted:    Training/bin/classes/de/training/training/R$drawable.class
+#	deleted:    Training/bin/classes/de/training/training/R$id.class
+#	deleted:    Training/bin/classes/de/training/training/R$integer.class
+#	deleted:    Training/bin/classes/de/training/training/R$layout.class
+#	deleted:    Training/bin/classes/de/training/training/R$menu.class
+#	deleted:    Training/bin/classes/de/training/training/R$string.class
+#	deleted:    Training/bin/classes/de/training/training/R$style.class
+#	deleted:    Training/bin/classes/de/training/training/R$styleable.class
+#	deleted:    Training/bin/classes/de/training/training/R.class
+#	deleted:    Training/bin/dexedLibs/android-support-v4-cd5f3d37b8113d8ff76286c374c3c052.jar
+#	deleted:    Training/bin/dexedLibs/android-support-v7-appcompat-04c2fd3152b315d2ed561be835c847c2.jar
+#	deleted:    Training/bin/dexedLibs/appcompat_v7-0bc6279e72d13762451d0dde4f078bb1.jar
+#	deleted:    Training/bin/res/crunch/drawable-hdpi/ic_launcher.png
+#	deleted:    Training/bin/res/crunch/drawable-mdpi/ic_launcher.png
+#	deleted:    Training/bin/res/crunch/drawable-xhdpi/ic_launcher.png
+#	deleted:    Training/bin/res/crunch/drawable-xxhdpi/ic_launcher.png
+#	deleted:    Training/bin/resources.ap_
+#	deleted:    Training/gen/android/support/v7/appcompat/R.java
+#	deleted:    Training/gen/de/training/training/BuildConfig.java
+#	deleted:    Training/gen/de/training/training/R.java
+#	deleted:    Training/ic_launcher-web.png
+#	deleted:    Training/libs/android-support-v4.jar
+#	deleted:    Training/proguard-project.txt
+#	deleted:    Training/project.properties
+#	deleted:    Training/res/drawable-hdpi/ic_launcher.png
+#	deleted:    Training/res/drawable-mdpi/ic_launcher.png
+#	deleted:    Training/res/drawable-xhdpi/ic_launcher.png
+#	deleted:    Training/res/drawable-xxhdpi/ic_launcher.png
+#	deleted:    Training/res/layout/activity_main.xml
+#	deleted:    Training/res/layout/content_provider.xml
+#	deleted:    Training/res/layout/dateisystem.xml
+#	deleted:    Training/res/menu/main.xml
+#	deleted:    Training/res/values-v11/styles.xml
+#	deleted:    Training/res/values-v14/styles.xml
+#	deleted:    Training/res/values-w820dp/dimens.xml
+#	deleted:    Training/res/values/dimens.xml
+#	deleted:    Training/res/values/strings.xml
+#	deleted:    Training/res/values/styles.xml
+#	deleted:    Training/src/de/training/training/ContentProvider.java
+#	deleted:    Training/src/de/training/training/Dateisystem.java
+#	deleted:    Training/src/de/training/training/MainActivity.java
+#
+# Changes not staged for commit:
+#	deleted:    test/.classpath
+#	deleted:    test/.project
+#
+
