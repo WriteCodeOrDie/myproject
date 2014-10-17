@@ -3,19 +3,20 @@ package de.training.training;
 import android.content.Context;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.view.LayoutInflater;
 import android.view.View;
 
-public class FragmentTest extends Menu_Navigation_left {
+public class FragmentTest extends FragmentActivity {
 
 	ViewPager viewPager = null;
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-//		setContentView(R.layout.fragmenttest_main);
+		setContentView(R.layout.fragmenttest_main);
 		viewPager = (ViewPager) findViewById(R.id.pager);
 		FragmentManager fragmentManager =  getSupportFragmentManager();
 		viewPager.setAdapter(new CustomFragmentAdaper(fragmentManager));
@@ -27,6 +28,7 @@ public class FragmentTest extends Menu_Navigation_left {
 //		DrawerLayout drawer = (DrawerLayout)findViewById(R.id.drawer_layout);
 //		drawer.addView(contentView, 0);
 //		drawerLayout.addView(contentView,0);
+		
 		
 		
 	}
