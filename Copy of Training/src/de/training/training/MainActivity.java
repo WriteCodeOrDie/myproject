@@ -10,7 +10,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 
-public class MainActivity extends Menu_Navigation_left {
+public class MainActivity extends Menu_left {
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -62,7 +62,7 @@ public class MainActivity extends Menu_Navigation_left {
 			startActivity(new Intent(this, SimProvider_Add.class));
 			break;
 		case R.id.btnMenu:
-			startActivity(new Intent(this, Menu_Navigation_left.class));
+			startActivity(new Intent(this, Menu_left.class));
 			break;
 		}
 	}

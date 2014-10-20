@@ -15,17 +15,18 @@
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
-        <activity android:name=".FragmentTest">
+        <activity android:name="Menu_Navigation_left">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity><activity android:name=".Tabbed_Fragments">
         </activity><activity android:name="Dateisystem"></activity>
         <activity android:name="ContentProvider"></activity>
         <activity android:name="SimProvider"></activity>
         <activity android:name="SimProvider_Details"></activity>
         <activity android:name="SimProvider_Add"></activity>
-        <activity android:name="Menu_Navigation_left"></activity>
+        
         
     </application>
 

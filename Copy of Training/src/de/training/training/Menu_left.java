@@ -1,17 +1,21 @@
 package de.training.training;
 
-import android.content.Intent;
+import android.annotation.SuppressLint;
 import android.os.Bundle;
 import android.support.v4.app.ActionBarDrawerToggle;
+import android.support.v4.app.FragmentActivity;
 import android.support.v4.widget.DrawerLayout;
-import android.support.v7.app.ActionBarActivity;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
 import android.widget.ListView;
+import android.widget.Toast;
 
-public abstract class Menu_Navigation_left extends ActionBarActivity implements OnItemClickListener {
+public class Menu_left extends FragmentActivity implements OnItemClickListener {
+	
+	
+//	private static final String TAG = Menu_left.class.getSimpleName();
 	
 	protected DrawerLayout drawerLayout;
 	private ListView listview;
@@ -19,6 +23,8 @@ public abstract class Menu_Navigation_left extends ActionBarActivity implements 
 	private Adapter_Menu_left myAdapter;
 	
 
+
+	@SuppressLint("NewApi")
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		// TODO Auto-generated method stub
@@ -44,13 +50,17 @@ public abstract class Menu_Navigation_left extends ActionBarActivity implements 
 				super.onDrawerClosed(drawerView);
 			}
 			
-			
+//			
 		};
 		drawerLayout.setDrawerListener(drawerListener);
-		getSupportActionBar().setHomeButtonEnabled(true);
-		getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+		getActionBar().setHomeButtonEnabled(true);
+		getActionBar().setDisplayHomeAsUpEnabled(true);
 		
 		listview.setOnItemClickListener(this);
+		
+		getSupportFragmentManager()
+		.beginTransaction()
+		.replace(R.id.mainContent, Tabbed_Fragments.newinstance(), Tabbed_Fragments.TAG).commit();
 	}
 	
 	
@@ -73,15 +83,34 @@ public abstract class Menu_Navigation_left extends ActionBarActivity implements 
 	public void onItemClick(AdapterView<?> parent, View view, int position,
 			long id) {
 		
-		drawerLayout.closeDrawers();
+//		drawerLayout.closeDrawers();
 		
 		
 		switch (position) {
 		
 		case 0: // Hauptmenü
-			startActivity(new Intent(this, MainActivity.class));
+//			Log.d("Hauptmenü", "test");
+//			startActivity(new Intent(this, MainActivity.class));
 //			selectItem(position);
 //			setTitle(menu_names);
+
+				Toast.makeText(this, "Position " + position, Toast.LENGTH_SHORT).show();
+			break;
+		case 1: // Hauptmenü
+//			Log.d("Hauptmenü", "test");
+//			startActivity(new Intent(this, MainActivity.class));
+//			selectItem(position);
+//			setTitle(menu_names);
+
+				Toast.makeText(this, "Position " + position, Toast.LENGTH_SHORT).show();
+			break;
+		case 2: // Hauptmenü
+//			Log.d("Hauptmenü", "test");
+//			startActivity(new Intent(this, MainActivity.class));
+//			selectItem(position);
+//			setTitle(menu_names);
+
+				Toast.makeText(this, "Position " + position, Toast.LENGTH_SHORT).show();
 			break;
 			
 		}

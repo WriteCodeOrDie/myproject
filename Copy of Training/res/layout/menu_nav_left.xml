@@ -19,7 +19,8 @@
 	    android:id="@+id/drawelist"
 	    android:layout_width="220dp"
 	    android:layout_height="match_parent"
-	    android:layout_gravity="left"
+	    android:layout_gravity="start"
+	    android:choiceMode="singleChoice"
 	    android:background="#dfdfdf"
 	    android:paddingBottom="10dp"
 	    >
